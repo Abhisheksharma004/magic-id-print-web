@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DashBoard || WelCome To || Jyoti Info Tech. || Quick LInk Protal. </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style2.css">
+
+</head>
+
+<body id="body">
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div class="user">
+            <img src="image/logo.jpeg" alt="">
+            <h3>Jyoti Info Tech</h3>
+            <p>Abhishek Sharma</p>
+        </div>
+
+        <nav class="navbar">
+            <a href="#">magic Id Card Print</a>
+            <a href="#">Contact Number</a>
+            <a href="#">+91 7764936310</a>
+            <a href="#">Email Id</a>
+            <a href="#">jyotiinfotech.04@gmail.com</a>
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <!-- theme toggler  -->
+
+    <div id="theme-toggler" class="fas fa-moon"></div>
+
+
+    <!-- id card section starts  -->
+
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>magick id</span> card <span>print</span> </h1>
+
+        <form>
+            <div class="upload">
+                <div class="upload-box">
+                    <div class="image-preview" id="imagePreview">
+                        <img src="" alt="Image Preview" class="image-preview__image">
+                        <span class="image-preview__default-text">Upload Front Side...</span>
+                    </div>
+                </div>
+                <div class="upload-box" id="imagePreview">
+                    <div class="image-preview2" id="imagePreview2">
+                        <img src="" alt="Image Preview" class="image-preview__image2">
+                        <span class="image-preview__default-text2">Upload Back Side...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="upload">
+                <input type="file" name="inpFile" class="btn custom-btn" id="inpFile">
+                <input type="file" name="inpFile2" class="btn custom-btn" id="inpFile2">
+            </div>
+            <div class="upload">
+                <button class="btn custom-btn" onclick="printPage()">Print</button>
+                <!-- <button class="btn custom-btn">Reset</button> -->
+                <!-- <input type="reset" class="btn custom-btn"> -->
+            </div>
+        </form>
+        <div class="printView">
+            <div class="print" id="printData">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="showImage" id="imagePreview3">
+                                <img src="" alt="Image Preview" class="image-preview__image3">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="showImage" id="imagePreview4">
+                                <img src="" alt="Image Preview " class="image-preview__image4 ">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+
+
+
+
+                <!-- <div class="showImage" id="imagePreview3">
+                    <img src="" alt="Image Preview" class="image-preview__image3">
+                </div>
+                <div class="showImage" id="imagePreview4">
+                    <img src="" alt="Image Preview " class="image-preview__image4 ">
+                </div> -->
+            </div>
+        </div>
+
+    </section>
+
+    <!-- id card section ends -->
+
+
+    <div class="credits "> created by <span><a href="https://jyotiinfotech.netlify.app/">Jyoti Info Tech. Software Solutions</a></span> | all rights reserved </div>
+    <!-- custom js file link  -->
+    <script src="js/script.js "></script>
+    <script src="js/magicId.js "></script>
+    <script src="js/printScript.js"></script>
+
+</body>
+</html>
